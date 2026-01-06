@@ -1,0 +1,56 @@
+# 依赖
+node_modules
+.pnpm-store
+
+# Next.js
+.next
+out
+dist
+
+# 测试
+coverage
+.nyc_output
+*.log
+
+# 开发工具
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# 环境变量（不要包含敏感信息）
+.env*.local
+.env.development
+.env.test
+
+# 其他
+.DS_Store
+*.pem
+.husky
+.github
+
+# 文档
+README.md
+LICENSE.md
+AGENTS.md
+docs
+
+# 测试和 CI
+.playwright
+playwright-report
+test-results
+
+# Lint 和格式化
+.eslintcache
+.prettierignore
+
+# 临时文件
+*.tmp
+*.temp
+.cache
